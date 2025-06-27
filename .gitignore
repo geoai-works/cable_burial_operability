@@ -1,0 +1,10 @@
+# Ignore large input files
+raw_data/
+inputs/emodnet_bathy_raw_2024.tif
+
+# Ignore all GPKG intermediate/final files
+processed_data/*.gpkg
+
+# Ignore large raster exports if any
+outputs/maps/*.tif
+outputs/summary/*.gpkg
