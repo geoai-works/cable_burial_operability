@@ -8,3 +8,9 @@ processed_data/*.gpkg
 # Ignore large raster exports if any
 outputs/maps/*.tif
 outputs/summary/*.gpkg
+
+# Ignore Jupyter checkpoints (in any subfolder)
+**/.ipynb_checkpoints/
+
+# Ignore macOS system files
+**/.DS_Store
